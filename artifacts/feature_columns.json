@@ -1,0 +1,100 @@
+{
+  "numeric": {
+    "age": {
+      "min": 18.0,
+      "max": 24.0,
+      "median": 21.0
+    },
+    "family_income": {
+      "min": 50.0,
+      "max": 707.8914388,
+      "median": 249.664059
+    },
+    "transport_time": {
+      "min": 5.0,
+      "max": 225.3787662,
+      "median": 45.202289765
+    },
+    "study_hours": {
+      "min": 0.0,
+      "max": 24.4032659,
+      "median": 3.011870048
+    },
+    "attendance_rate": {
+      "min": 20.0,
+      "max": 100.0,
+      "median": 74.979321745
+    },
+    "lms_logins": {
+      "min": 0.0,
+      "max": 19.0,
+      "median": 5.0
+    },
+    "stress_level": {
+      "min": 1.0,
+      "max": 10.0,
+      "median": 4.996771990999999
+    }
+  },
+  "categorical": {
+    "gender": [
+      "Female",
+      "Male"
+    ],
+    "location": [
+      "Rural",
+      "Urban"
+    ],
+    "internet_access": [
+      "Good",
+      "Moderate",
+      "Poor"
+    ],
+    "electricity_reliability": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "fees_paid": [
+      "Full",
+      "None",
+      "Partial"
+    ],
+    "part_time_job": [
+      "No",
+      "Yes"
+    ]
+  },
+  "grade_map": {
+    "F": 0,
+    "3": 1,
+    "2.2": 2,
+    "2.1": 3,
+    "1": 4
+  },
+  "numeric_order": [
+    "age",
+    "family_income",
+    "transport_time",
+    "study_hours",
+    "attendance_rate",
+    "lms_logins",
+    "previous_grade_ord",
+    "stress_level"
+  ],
+  "categorical_order": [
+    "gender",
+    "location",
+    "internet_access",
+    "electricity_reliability",
+    "fees_paid",
+    "part_time_job"
+  ],
+  "grade_labels": [
+    "1",
+    "2.1",
+    "2.2",
+    "3",
+    "F"
+  ]
+}
